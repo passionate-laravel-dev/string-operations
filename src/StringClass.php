@@ -9,7 +9,9 @@ class StringClass
         return new static($str);
     }
 
-    public function __construct(protected string $str) {}
+    public function __construct(protected string $str)
+    {
+    }
 
     /**
      * Reverse string
@@ -31,13 +33,14 @@ class StringClass
 
     /**
      * Append string
-     * 
+     *
      * @param string $str
      * @return string
      */
     public function append(string $str): string
     {
         $this->str .= $str;
+
         return $this->str;
     }
 }
