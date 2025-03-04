@@ -11,14 +11,16 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require spatie/string-reverse
+composer require passionator/string-reverse
 ```
 
 ## Usage
 
 ```php
-$skeleton = new Spatie\StringReverse();
-echo $skeleton->echoPhrase('Hello, Spatie!');
+use Spatie\StringReverse\StringReverseClass;
+
+$string = StringReverseClass::string("Test")->reverse();
+echo $string;
 ```
 
 ## Testing
