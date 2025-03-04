@@ -1,9 +1,9 @@
 <?php
 
-use Spatie\StringReverse\StringReverseClass;
+use Passionator\StringOperations\StringClass;
 
 it('can reverse string', function () {
 
-    $str = StringReverseClass::string("Test")->reverse();
+    $str = StringClass::string("Test")->reverse();
     expect($str)->toEqual("tseT");
 });

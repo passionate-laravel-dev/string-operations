@@ -1,4 +1,4 @@
-# String reverse in PHP
+# String Operations in PHP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/string-reverse.svg?style=flat-square)](https://packagist.org/packages/spatie/string-reverse)
 [![Tests](https://img.shields.io/github/actions/workflow/status/spatie/string-reverse/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/spatie/string-reverse/actions/workflows/run-tests.yml)
@@ -11,15 +11,18 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require passionator/string-reverse
+composer require passionator/string-operations
 ```
 
 ## Usage
 
 ```php
-use Spatie\StringReverse\StringReverseClass;
+use Passionator\StringOperations\StringClass;
 
-$string = StringReverseClass::string("Test")->reverse();
+$string = StringClass::string("Test")->reverse();
+echo $string;
+
+$string = StringClass::string("Test")->append(" is successful!");
 echo $string;
 ```
 

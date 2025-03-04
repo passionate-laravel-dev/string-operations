@@ -1,11 +1,11 @@
 {
-    "name": "passionator/string-reverse",
-    "description": "String reverse in PHP",
+    "name": "passionator/string-operations",
+    "description": "String operations in PHP",
     "keywords": [
         "passionator",
-        "string-reverse"
+        "string-operations"
     ],
-    "homepage": "https://github.com/spatie/string-reverse",
+    "homepage": "https://github.com/spatie/string-operations",
     "license": "MIT",
     "authors": [
         {
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\StringReverse\\": "src"
+            "Passionator\\StringOperations\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\StringReverse\\Tests\\": "tests"
+            "Passionator\\StringOperations\\Tests\\": "tests"
         }
     },
     "scripts": {

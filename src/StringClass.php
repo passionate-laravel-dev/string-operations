@@ -1,17 +1,15 @@
 <?php
 
-namespace Spatie\StringReverse;
+namespace Passionator\StringOperations;
 
-class StringReverseClass
+class StringClass
 {
     public static function string(string $str): self
     {
         return new static($str);
     }
 
-    public function __construct(protected string $str)
-    {
-    }
+    public function __construct(protected string $str) {}
 
     /**
      * Reverse string
@@ -28,6 +26,18 @@ class StringReverseClass
             $this->str[$length - $i - 1] = $temp;
         }
 
+        return $this->str;
+    }
+
+    /**
+     * Append string
+     * 
+     * @param string $str
+     * @return string
+     */
+    public function append(string $str): string
+    {
+        $this->str .= $str;
         return $this->str;
     }
 }
