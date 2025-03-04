@@ -1,8 +1,8 @@
 {
-    "name": "spatie/string-reverse",
+    "name": "passionator/string-reverse",
     "description": "String reverse in PHP",
     "keywords": [
-        "spatie",
+        "passionator",
         "string-reverse"
     ],
     "homepage": "https://github.com/spatie/string-reverse",
